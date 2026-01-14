@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\learrn-asp-dotnet_1.props" />
-</Project>
