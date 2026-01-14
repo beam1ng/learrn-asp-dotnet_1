@@ -1,0 +1,16 @@
+GET http://localhost:5194/todos/
+###
+GET http://localhost:5194/tasks/4
+###
+POST http://localhost:5194/todos
+Content-Type: application/json
+
+{
+    "id":4,
+    "name":"test1",
+    "dueDate": "2026-01-01T10:01",
+    "isCompleted": false
+}
+###
+DELETE http://localhost:5194/todos/4
+###
